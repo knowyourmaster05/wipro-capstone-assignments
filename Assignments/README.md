@@ -76,13 +76,13 @@ Each part has its own subfolder with runnable scripts, test data, and — in som
 Covers core Selenium WebDriver concepts — locating elements, waiting for conditions, handling alerts, reading tables, and switching contexts.
 
 | # | Topic | What it demonstrates |
-|---|---|---|
+|---|-------|----------------------|
 | 1 | **Locators** | Log into saucedemo.com using three different locator strategies — `By.ID`, `By.NAME`, `By.XPATH`. Validates redirect to `inventory.html`. |
 | 2 | **Synchronization** | Wait for a dynamically-loaded element using `WebDriverWait` + `expected_conditions`. Explicit waits only — no `time.sleep()`. |
+| 3 | **Dropdowns & Checkboxes** | Verify checkbox state with `.is_selected()`; loop through an autocomplete dropdown and select a value. |
 | 4 | **JavaScript Alerts** | Handle JS `Alert`, `Confirm`, and `Prompt` dialogs — accept, dismiss, and enter text into the prompt. |
 | 5 | **Web Tables** | Iterate rows and columns of an HTML `<table>`, find a row by string match, extract an adjacent column value. |
 | 6 | **Windows · Tabs · Frames** | Switch into an iframe with `switch_to.frame()`, open a new tab, and switch between tabs using `window_handles`. |
-
 ---
 
 ## Part 2 — Unit Test Frameworks
@@ -156,6 +156,7 @@ Assignments/
 ├── Part_1_Automation_With_Selenium/
 │   ├── assignment_1_locators.py
 │   ├── assignment_2_sync.py
+│   ├── assignment_3_dropdowns_checkboxes.py
 │   ├── assignment_4_alerts.py
 │   ├── assignment_5_webtables.py
 │   └── assignment_6_windows_frames.py
@@ -226,6 +227,7 @@ cd Assignments
 ```powershell
 python Part_1_Automation_With_Selenium\assignment_1_locators.py
 python Part_1_Automation_With_Selenium\assignment_2_sync.py
+python Part_1_Automation_With_Selenium\assignment_3_dropdowns_checkboxes.py
 python Part_1_Automation_With_Selenium\assignment_4_alerts.py
 python Part_1_Automation_With_Selenium\assignment_5_webtables.py
 python Part_1_Automation_With_Selenium\assignment_6_windows_frames.py
