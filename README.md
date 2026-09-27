@@ -214,9 +214,9 @@ All assignments are organized under four thematic parts. Each row links directly
 
 | # | Certificate | Provider | Date | Certificate |
 |:--:|---|---|---|:--:|
-| 1 | Python for Automation | Madecraft | September 2026 | [📄 View](./Certificates/Python_for_Automation_Madecraft.pdf) |
-| 2 | Selenium WebDriver with Python | Whizlabs | September 2026 | [📄 View](./Certificates/Selenium_WebDriver_Python_Whizlabs.pdf) |
-| 3 | Test Automation with Playwright (Python) & Robot Framework | Coursera | September 2026 | [📄 View](./Certificates/Test_Automation_Playwright_Robot_Coursera.pdf) |
+| 1 | Python for Automation | Madecraft | September 2026 | [📄 View](./Certificates/Certificate1.pdf) |
+| 2 | Selenium WebDriver with Python | Whizlabs | September 2026 | [📄 View](./Certificates/Certificate2.pdf) |
+| 3 | Test Automation with Playwright (Python) & Robot Framework | Coursera | September 2026 | [📄 View](./Certificates/Certificate3.pdf) |
 
 ---
 
