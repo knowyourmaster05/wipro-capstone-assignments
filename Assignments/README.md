@@ -67,8 +67,6 @@ Each part has its own subfolder with runnable scripts, test data, and — in som
 | 13 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [Code](./Part_4_Robot_Framework/assignment_2_variables.robot) | [Video](<!-- ADD VIDEO LINK -->) |
 | 14 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [Code](./Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [Video](<!-- ADD VIDEO LINK -->) |
 
-> ⚠️ **Note on numbering:** There is no Assignment 3 in Part 1 — the syllabus intentionally skips from 2 to 4.
-
 ---
 
 ## Part 1 — Automation with Selenium
