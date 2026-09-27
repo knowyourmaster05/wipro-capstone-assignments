@@ -187,17 +187,19 @@ All assignments are organized under four thematic parts. Each row links directly
 |:--:|---|---|:--:|:--:|
 | 1 | Selenium | **Locators** — Login to saucedemo.com using ID, Name, and XPath strategies | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_1_locators.py) | [🎥](<!-- ADD VIDEO LINK -->) |
 | 2 | Selenium | **Synchronization** — Explicit waits with WebDriverWait (no `time.sleep()`) | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_2_sync.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 3 | Selenium | **JavaScript Alerts** — Handle Alert, Confirm, and Prompt dialogs | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_4_alerts.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 4 | Selenium | **Web Tables** — Iterate rows/columns, find by string match, extract adjacent value | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_5_webtables.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 5 | Selenium | **Windows · Tabs · Frames** — Switch contexts with `switch_to.frame()` and `window_handles` | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_6_windows_frames.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 6 | PyTest | **Page Object Model** — BasePage → LoginPage → PyTest tests with separated assertions | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_7_pom/) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 7 | PyTest | **Data-Driven Testing** — CSV + `@pytest.mark.parametrize` over multiple login combos | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_8_ddt.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 8 | PyTest | **HTML Reporting** — Module-scoped fixture + `pytest-html` self-contained report | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_9_pytest_html.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 9 | Behave | **BDD Framework** — Gherkin scenarios + step definitions for login flows | [📄](./Assignments/Part_3_Python_BDD_Restful_Automations/features/login.feature) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 10 | Behave | **Data-Driven API** — POST JSON payloads, validate 201 + response body | [📄](./Assignments/Part_3_Python_BDD_Restful_Automations/assignment_2_api_data_driven.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 11 | Robot | **Basic Syntax** — SeleniumLibrary keywords for login + inventory verification | [📄](./Assignments/Part_4_Robot_Framework/assignment_1_basic.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 12 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [📄](./Assignments/Part_4_Robot_Framework/assignment_2_variables.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 13 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [📄](./Assignments/Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 3 | Selenium | **Dropdowns & Checkboxes** — Verify state with `.is_selected()`; autocomplete dropdown loop | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_3_dropdowns_checkboxes.py) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 4 | Selenium | **JavaScript Alerts** — Handle Alert, Confirm, and Prompt dialogs | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_4_alerts.py) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 5 | Selenium | **Web Tables** — Iterate rows/columns, find by string match, extract adjacent value | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_5_webtables.py) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 6 | Selenium | **Windows · Tabs · Frames** — Switch contexts with `switch_to.frame()` and `window_handles` | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_6_windows_frames.py) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 7 | PyTest | **Page Object Model** — BasePage → LoginPage → PyTest tests with separated assertions | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_7_pom/) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 8 | PyTest | **Data-Driven Testing** — CSV + `@pytest.mark.parametrize` over multiple login combos | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_8_ddt.py) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 9 | PyTest | **HTML Reporting** — Module-scoped fixture + `pytest-html` self-contained report | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_9_pytest_html.py) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 10 | Behave | **BDD Framework** — Gherkin scenarios + step definitions for login flows | [📄](./Assignments/Part_3_Python_BDD_Restful_Automations/features/login.feature) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 11 | Behave | **Data-Driven API** — POST JSON payloads, validate 201 + response body | [📄](./Assignments/Part_3_Python_BDD_Restful_Automations/assignment_2_api_data_driven.py) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 12 | Robot | **Basic Syntax** — SeleniumLibrary keywords for login + inventory verification | [📄](./Assignments/Part_4_Robot_Framework/assignment_1_basic.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 13 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [📄](./Assignments/Part_4_Robot_Framework/assignment_2_variables.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 14 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [📄](./Assignments/Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
+
 > 💡 **Note:** Each assignment folder contains its **own README** with a detailed explanation, screenshots, and a walkthrough video. This root README links directly to the source code and the accompanying video for convenience.
 
 ---
