@@ -43,7 +43,6 @@
   <a href="#-assignments-portfolio"><img src="https://img.shields.io/badge/📚_Assignments-3776AB?style=for-the-badge&logoColor=white" /></a>
 </p>
 <p align="center">
-  <a href="#-screenshots"><img src="https://img.shields.io/badge/📸_Screenshots-D4A017?style=for-the-badge&logoColor=white" /></a>
   <a href="#-repository-structure"><img src="https://img.shields.io/badge/📁_Repo_Structure-2E6CB8?style=for-the-badge&logoColor=white" /></a>
   <a href="#-quick-start"><img src="https://img.shields.io/badge/🚀_Quick_Start-5B4FCF?style=for-the-badge&logoColor=white" /></a>
   <a href="#-acknowledgments"><img src="https://img.shields.io/badge/🙏_Acknowledgments-444441?style=for-the-badge&logoColor=white" /></a>
@@ -54,7 +53,7 @@
 
 | Folder | Description | Own README? |
 |---|---|:--:|
-| 📁 [`Capstone/`](./Capstone/) | Python API Automation Framework (Requests + Behave + Allure + MySQL) | ✅ [`README_DETAILED.md`](./Capstone/README_DETAILED.md) |
+| 📁 [`Capstone_Project/`](./Capstone_Project/) | Python API Automation Framework (Requests + Behave + Allure + MySQL) | ✅ [`README_DETAILED.md`](./Capstone_Project/README_DETAILED.md) |
 | 📁 [`Assignments/Part_1_Automation_With_Selenium/`](./Assignments/Part_1_Automation_With_Selenium/) | Selenium locators, waits, alerts, web tables, windows & frames | ✅ |
 | 📁 [`Assignments/Part_2_Unit_Test_Frameworks/`](./Assignments/Part_2_Unit_Test_Frameworks/) | PyTest, Page Object Model, Data-Driven Testing, HTML reports | ✅ |
 | 📁 [`Assignments/Part_3_Python_BDD_Restful_Automations/`](./Assignments/Part_3_Python_BDD_Restful_Automations/) | Behave BDD framework + REST API automation | ✅ |
@@ -86,7 +85,7 @@ A production-grade, layered API automation framework that automates the **User M
 
 <div align="center">
 
-[![📄 Full README](https://img.shields.io/badge/📄_Full_README-View_Detailed_Docs-blue?style=for-the-badge)](./Capstone/README_DETAILED.md)
+[![📄 Full README](https://img.shields.io/badge/📄_Full_README-View_Detailed_Docs-blue?style=for-the-badge)](./Capstone_Project/README_DETAILED.md)
 [![🎥 Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Watch_Walkthrough-red?style=for-the-badge)](<!-- ADD CAPSTONE DEMO VIDEO LINK -->)
 [![📊 Allure Report](https://img.shields.io/badge/📊_Allure_Report-Open_Report-orange?style=for-the-badge)](<!-- ADD ALLURE REPORT LINK -->)
 
@@ -176,7 +175,7 @@ flowchart BT
 ### 📂 Folder Division (Top Level)
 
 ```
-Capstone/
+Capstone_Project/
 ├── run.py                  # CLI runner (--env, --tags, --allure, --clean)
 ├── behave.ini              # Behave config + Allure formatter
 ├── requirements.txt        # Pinned dependencies
@@ -197,7 +196,7 @@ Capstone/
 ```
 
 > 📌 **Note**
-> The Capstone folder contains its **own detailed READMEs** covering the full walkthrough, architecture deep-dive, test strategy, demo script, and anticipated viva Q&A. Refer to [`Capstone/README_DETAILED.md`](./Capstone/README_DETAILED.md) for the complete picture.
+> The Capstone_Project folder contains its **own detailed READMEs** covering the full walkthrough, architecture deep-dive, test strategy, demo script, and anticipated viva Q&A. Refer to [`Capstone_Project/README_DETAILED.md`](./Capstone_Project/README_DETAILED.md) for the complete picture.
 
 ---
 
@@ -233,29 +232,12 @@ All assignments are organized under four thematic parts. Each row links directly
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-### Capstone — Allure Report
-![Allure Report](<!-- ADD SCREENSHOT PATH e.g. ./screenshots/allure-report.png -->)
-
-### Capstone — Test Execution Summary
-![Test Summary](<!-- ADD SCREENSHOT PATH e.g. ./screenshots/test-summary.png -->)
-
-### Assignments — PyTest HTML Report
-![PyTest Report](<!-- ADD SCREENSHOT PATH e.g. ./screenshots/pytest-report.png -->)
-
-</div>
-
----
-
 ## 📁 Repository Structure
 
 ```
 Submission/
 ├── README.md                           ← you are here
-├── Capstone/
+├── Capstone_Project/
 │   ├── README.md
 │   ├── README_DETAILED.md
 │   └── (full framework — see Capstone section)
@@ -271,10 +253,10 @@ Submission/
 
 ## 🚀 Quick Start
 
-### Capstone
+### Capstone_Project
 
 ```powershell
-cd Capstone
+cd Capstone_Project
 .\.venv\Scripts\Activate.ps1
 python run.py                        # all scenarios on dev
 python run.py --tags=@smoke          # smoke only
