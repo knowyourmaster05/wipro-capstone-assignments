@@ -57,10 +57,16 @@
 A production-grade, layered API automation framework that automates the **User Management API** of public REST services. Built with a strict separation of concerns — BDD features, domain services, transport layer, and cross-cutting utilities — so that features never touch HTTP and services never know about BDD.
 
 <div align="center">
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/8b333e5f-10e5-4c47-9d78-95c8f0ecb002" width="400" /></td>
+    <td><img src="https://github.com/user-attachments/assets/ee2dfea3-1871-4e90-b721-6c86208721fb" width="400" /></td>
+    <td><img src="https://github.com/user-attachments/assets/35052825-279a-4470-90ca-49073f4a6c1e" width="400" /></td>
+  </tr>
+</table>
 
 [![📄 Full README](https://img.shields.io/badge/📄_Full_README-View_Detailed_Docs-blue?style=for-the-badge)](./Capstone_Project/README_DETAILED.md)
 [![🎥 Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Watch_Walkthrough-red?style=for-the-badge)](<!-- ADD CAPSTONE DEMO VIDEO LINK -->)
-[![📊 Allure Report](https://img.shields.io/badge/📊_Allure_Report-Open_Report-orange?style=for-the-badge)](<!-- ADD ALLURE REPORT LINK -->)
 
 </div>
 
