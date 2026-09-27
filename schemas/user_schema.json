@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AutomationExercise User Detail",
+  "type": "object",
+  "properties": {
+    "responseCode": { "type": "integer" },
+    "user": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "integer" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "title": { "type": "string" },
+        "birth_date": { "type": "string" },
+        "birth_month": { "type": "string" },
+        "birth_year": { "type": "string" },
+        "first_name": { "type": "string" },
+        "last_name": { "type": "string" },
+        "company": { "type": "string" },
+        "address1": { "type": "string" },
+        "address2": { "type": "string" },
+        "country": { "type": "string" },
+        "state": { "type": "string" },
+        "city": { "type": "string" },
+        "zipcode": { "type": "string" }
+      },
+      "required": ["id", "email"]
+    }
+  },
+  "required": ["responseCode"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Dibyojyoti Datta",
+  "email": "dibyojyoti.qa+template@example.com",
+  "password": "Test@1234",
+  "title": "Mr",
+  "birth_date": "15",
+  "birth_month": "June",
+  "birth_year": "1996",
+  "firstname": "Dibyojyoti",
+  "lastname": "Datta",
+  "company": "QA Labs",
+  "address1": "12 Test Street",
+  "address2": "Suite 4",
+  "country": "India",
+  "zipcode": "700001",
+  "state": "West Bengal",
+  "city": "Kolkata",
+  "mobile_number": "9876543210"
+}

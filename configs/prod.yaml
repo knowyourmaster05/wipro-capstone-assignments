@@ -1,0 +1,19 @@
+environment: prod
+base_urls:
+  automation_exercise: "https://automationexercise.com/api"
+  jsonplaceholder: "https://jsonplaceholder.typicode.com"
+timeouts:
+  connect: 10
+  read: 30
+retry:
+  max_attempts: 3
+  backoff_factor: 0.5
+database:
+  host: "localhost"
+  port: 3306
+  user: "root"
+  password: "iamdibyojyoti05@"
+  name: "api_automation_db"
+logging:
+  level: "INFO"
+  log_file: "logs/framework.log"

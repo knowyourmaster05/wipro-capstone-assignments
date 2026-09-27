@@ -1,0 +1,21 @@
+invalid_users:
+  - scenario: "missing email"
+    payload: { password: "Test@1234" }
+    expected_status: 400
+    expected_message: "Bad request"
+  - scenario: "missing pass"
+    payload: { email: "someone@example.com" }
+    expected_status: 400
+    expected_message: "Bad request"
+  - scenario: "invalid email"
+    payload: { email: "not-an-email", password: "Test@1234" }
+    expected_status: 400
+    expected_message: "Bad request"
+  - scenario: "wrong creds"
+    payload: { email: "ghost@nowhere.com", password: "WrongPass1!" }
+    expected_status: 404
+    expected_message: "User not found"
+  - scenario: "empty payload"
+    payload: {}
+    expected_status: 400
+    expected_message: "Bad request"

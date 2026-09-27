@@ -1,0 +1,11 @@
+﻿requests
+behave
+allure-behave
+allure-python-commons
+PyYAML
+jsonschema
+Faker
+mysql-connector-python
+python-dotenv
+pytest
+
