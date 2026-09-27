@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.14.4 on win32)" generated="2026-09-27T09:20:35.937798" rpa="false" schemaversion="5">
+<suite id="s1" name="Part 4 Robot Framework" source="C:\Users\rajdi\Downloads\Assignments\Part_4_Robot_Framework">
+<suite id="s1-s1" name="Assignment 1 Basic" source="C:\Users\rajdi\Downloads\Assignments\Part_4_Robot_Framework\assignment_1_basic.robot">
+<test id="s1-s1-t1" name="Open Browser And Login" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:36.517748" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-27T09:20:36.517303" elapsed="1.368539"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-27T09:20:37.887585" elapsed="0.056314"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:37.947350" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
+<arg>id:user-name</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T09:20:37.945300" elapsed="0.209853"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:38.156920" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
+<arg>id:password</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T09:20:38.156064" elapsed="0.109354"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:38.266567" level="INFO">Clicking button 'id:login-button'.</msg>
+<arg>id:login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T09:20:38.265972" elapsed="0.088081"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>class:inventory_list</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-27T09:20:38.354491" elapsed="0.070543"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:38.437234" level="INFO">Current page contains element 'class:inventory_list'.</msg>
+<arg>class:inventory_list</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-09-27T09:20:38.425739" elapsed="0.011648"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-09-27T09:20:38.437848" elapsed="2.211364"/>
+</kw>
+<status status="PASS" start="2026-09-27T09:20:36.515600" elapsed="4.134237"/>
+</test>
+<status status="PASS" start="2026-09-27T09:20:36.018825" elapsed="4.632251"/>
+</suite>
+<suite id="s1-s2" name="Assignment 2 Variables" source="C:\Users\rajdi\Downloads\Assignments\Part_4_Robot_Framework\assignment_2_variables.robot">
+<test id="s1-s2-t1" name="Login With Variables" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:40.656589" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-27T09:20:40.656287" elapsed="1.611741"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-27T09:20:42.272359" elapsed="0.080919"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:42.356329" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
+<arg>id:user-name</arg>
+<arg>${USER}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T09:20:42.354913" elapsed="0.303441"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:42.660935" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
+<arg>id:password</arg>
+<arg>${PASS}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T09:20:42.659785" elapsed="0.168216"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:42.829400" level="INFO">Clicking button 'id:login-button'.</msg>
+<arg>id:login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T09:20:42.828792" elapsed="0.112480"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:43.038409" level="INFO">Current page contains element 'class:inventory_list'.</msg>
+<arg>class:inventory_list</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-09-27T09:20:42.942172" elapsed="0.096583"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-09-27T09:20:43.039667" elapsed="2.298500"/>
+</kw>
+<doc>Test using variables for data storage</doc>
+<status status="PASS" start="2026-09-27T09:20:40.655471" elapsed="4.683276"/>
+</test>
+<status status="PASS" start="2026-09-27T09:20:40.651838" elapsed="4.687779"/>
+</suite>
+<suite id="s1-s3" name="Assignment 3 Custom Keywords" source="C:\Users\rajdi\Downloads\Assignments\Part_4_Robot_Framework\assignment_3_custom_keywords.robot">
+<test id="s1-s3-t1" name="Login Using Custom Keywords" line="9">
+<kw name="Open Browser To Login Page">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:45.345654" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-27T09:20:45.345326" elapsed="1.598328"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-27T09:20:46.944575" elapsed="0.095010"/>
+</kw>
+<status status="PASS" start="2026-09-27T09:20:45.344556" elapsed="1.695394"/>
+</kw>
+<kw name="Enter Credentials">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:47.048178" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
+<arg>id:user-name</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T09:20:47.044925" elapsed="0.435221"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:47.481502" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
+<arg>id:password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T09:20:47.480699" elapsed="0.170171"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:47.652186" level="INFO">Clicking button 'id:login-button'.</msg>
+<arg>id:login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T09:20:47.651475" elapsed="0.126696"/>
+</kw>
+<arg>standard_user</arg>
+<arg>secret_sauce</arg>
+<status status="PASS" start="2026-09-27T09:20:47.041415" elapsed="0.737083"/>
+</kw>
+<kw name="Verify Login Success">
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-09-27T09:20:47.849025" level="INFO">Current page contains element 'class:inventory_list'.</msg>
+<arg>class:inventory_list</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-09-27T09:20:47.779677" elapsed="0.069553"/>
+</kw>
+<status status="PASS" start="2026-09-27T09:20:47.779125" elapsed="0.070357"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-09-27T09:20:47.850329" elapsed="2.287224"/>
+</kw>
+<status status="PASS" start="2026-09-27T09:20:45.343841" elapsed="4.794261"/>
+</test>
+<status status="PASS" start="2026-09-27T09:20:45.340384" elapsed="4.798815"/>
+</suite>
+<status status="PASS" start="2026-09-27T09:20:35.940686" elapsed="14.199273"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Part 4 Robot Framework" id="s1" pass="3" fail="0" skip="0">Part 4 Robot Framework</stat>
+<stat name="Assignment 1 Basic" id="s1-s1" pass="1" fail="0" skip="0">Part 4 Robot Framework.Assignment 1 Basic</stat>
+<stat name="Assignment 2 Variables" id="s1-s2" pass="1" fail="0" skip="0">Part 4 Robot Framework.Assignment 2 Variables</stat>
+<stat name="Assignment 3 Custom Keywords" id="s1-s3" pass="1" fail="0" skip="0">Part 4 Robot Framework.Assignment 3 Custom Keywords</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
