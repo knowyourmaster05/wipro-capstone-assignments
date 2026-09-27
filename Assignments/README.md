@@ -48,57 +48,24 @@ Each part has its own subfolder with runnable scripts, test data, and — in som
 
 ---
 
-## Demo Video & Screenshots
-
-<div align="center">
-
-### Full Walkthrough
-
-[![Watch Assignments Walkthrough](https://img.shields.io/badge/Watch_Walkthrough_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](<!-- ADD ASSIGNMENTS DEMO VIDEO LINK -->)
-
-*A single end-to-end video walking through every assignment in this folder.*
-
-</div>
-
-### Screenshots
-
-<div align="center">
-
-**Selenium — Locators Assignment (Assignment 1)**
-![Selenium Locators](<!-- ADD SCREENSHOT PATH e.g. ./screenshots/selenium-locators.png -->)
-
-**PyTest — HTML Report Output (Assignment 9)**
-![PyTest HTML Report](<!-- ADD SCREENSHOT PATH e.g. ./screenshots/pytest-html-report.png -->)
-
-**Behave — BDD Scenario Run (Part 3)**
-![Behave Output](<!-- ADD SCREENSHOT PATH e.g. ./screenshots/behave-output.png -->)
-
-**Robot Framework — log.html Report (Part 4)**
-![Robot Report](<!-- ADD SCREENSHOT PATH e.g. ./screenshots/robot-report.png -->)
-
-</div>
-
-> Drop your screenshots into `Assignments/screenshots/` and replace the placeholder comments above with the actual paths.
-
----
-
 ## Assignments at a Glance
 
 | # | Part | Assignment | Code | Video |
 |:--:|---|---|:--:|:--:|
 | 1 | Selenium | **Locators** — Login to saucedemo.com using ID, Name, and XPath strategies | [Code](./Part_1_Automation_With_Selenium/assignment_1_locators.py) | [Video](<!-- ADD VIDEO LINK -->) |
 | 2 | Selenium | **Synchronization** — Explicit waits with WebDriverWait (no `time.sleep()`) | [Code](./Part_1_Automation_With_Selenium/assignment_2_sync.py) | [Video](<!-- ADD VIDEO LINK -->) |
+| 3 | Selenium | **Dropdowns & Checkboxes** — Verify state with `.is_selected()`; autocomplete dropdown loop | [Code](./Part_1_Automation_With_Selenium/assignment_3_dropdowns_checkboxes.py) | [Video](<!-- ADD VIDEO LINK -->) |
 | 4 | Selenium | **JavaScript Alerts** — Handle Alert, Confirm, and Prompt dialogs | [Code](./Part_1_Automation_With_Selenium/assignment_4_alerts.py) | [Video](<!-- ADD VIDEO LINK -->) |
 | 5 | Selenium | **Web Tables** — Iterate rows/columns, find by string match, extract adjacent value | [Code](./Part_1_Automation_With_Selenium/assignment_5_webtables.py) | [Video](<!-- ADD VIDEO LINK -->) |
 | 6 | Selenium | **Windows · Tabs · Frames** — Switch contexts with `switch_to.frame()` and `window_handles` | [Code](./Part_1_Automation_With_Selenium/assignment_6_windows_frames.py) | [Video](<!-- ADD VIDEO LINK -->) |
 | 7 | PyTest | **Page Object Model** — BasePage → LoginPage → PyTest tests with separated assertions | [Code](./Part_2_Unit_Test_Frameworks/assignment_7_pom/) | [Video](<!-- ADD VIDEO LINK -->) |
 | 8 | PyTest | **Data-Driven Testing** — CSV + `@pytest.mark.parametrize` over multiple login combos | [Code](./Part_2_Unit_Test_Frameworks/assignment_8_ddt.py) | [Video](<!-- ADD VIDEO LINK -->) |
 | 9 | PyTest | **HTML Reporting** — Module-scoped fixture + `pytest-html` self-contained report | [Code](./Part_2_Unit_Test_Frameworks/assignment_9_pytest_html.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| B1 | Behave | **BDD Framework** — Gherkin scenarios + step definitions for login flows | [Code](./Part_3_Python_BDD_Restful_Automations/features/login.feature) | [Video](<!-- ADD VIDEO LINK -->) |
-| B2 | Behave | **Data-Driven API** — POST JSON payloads, validate 201 + response body | [Code](./Part_3_Python_BDD_Restful_Automations/assignment_2_api_data_driven.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| R1 | Robot | **Basic Syntax** — SeleniumLibrary keywords for login + inventory verification | [Code](./Part_4_Robot_Framework/assignment_1_basic.robot) | [Video](<!-- ADD VIDEO LINK -->) |
-| R2 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [Code](./Part_4_Robot_Framework/assignment_2_variables.robot) | [Video](<!-- ADD VIDEO LINK -->) |
-| R3 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [Code](./Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [Video](<!-- ADD VIDEO LINK -->) |
+| 10 | Behave | **BDD Framework** — Gherkin scenarios + step definitions for login flows | [Code](./Part_3_Python_BDD_Restful_Automations/features/login.feature) | [Video](<!-- ADD VIDEO LINK -->) |
+| 11 | Behave | **Data-Driven API** — POST JSON payloads, validate 201 + response body | [Code](./Part_3_Python_BDD_Restful_Automations/assignment_2_api_data_driven.py) | [Video](<!-- ADD VIDEO LINK -->) |
+| 12 | Robot | **Basic Syntax** — SeleniumLibrary keywords for login + inventory verification | [Code](./Part_4_Robot_Framework/assignment_1_basic.robot) | [Video](<!-- ADD VIDEO LINK -->) |
+| 13 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [Code](./Part_4_Robot_Framework/assignment_2_variables.robot) | [Video](<!-- ADD VIDEO LINK -->) |
+| 14 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [Code](./Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [Video](<!-- ADD VIDEO LINK -->) |
 
 > ⚠️ **Note on numbering:** There is no Assignment 3 in Part 1 — the syllabus intentionally skips from 2 to 4.
 
