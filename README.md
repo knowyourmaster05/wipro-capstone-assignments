@@ -275,8 +275,6 @@ robot  Part_4_Robot_Framework
 | **Submission Date** | `<!-- ADD DATE -->` |
 
 ---
----
-
 ## 🙏 Acknowledgments
 
 - Course instructors and mentors for the structured syllabus
