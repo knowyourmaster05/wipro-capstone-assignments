@@ -1,116 +1,118 @@
 <div align="center">
 
-# 🐍 Python Automation Portfolio
+# Python API Automation Framework
 
-### Capstone Project & Assignment Submissions
+### Capstone Project · Python Automation Course · 2026
 
-**Python Automation Course · 2026**
+**Requests + Behave BDD · Allure Reporting · MySQL Validation**
 
 [![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Selenium](https://img.shields.io/badge/Selenium-4.x-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://selenium.dev/)
+[![Requests](https://img.shields.io/badge/Requests-2.x-2C5BB4?style=for-the-badge)](https://requests.readthedocs.io/)
 [![Behave](https://img.shields.io/badge/Behave-BDD-4B8BBE?style=for-the-badge)](https://behave.readthedocs.io/)
-[![PyTest](https://img.shields.io/badge/PyTest-Framework-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org/)
-[![Robot](https://img.shields.io/badge/Robot_Framework-000000?style=for-the-badge&logo=robotframework&logoColor=white)](https://robotframework.org/)
-[![Allure](https://img.shields.io/badge/Allure-Report-FF6C37?style=for-the-badge)](https://allurereport.org/)
+[![Allure](https://img.shields.io/badge/Allure-2.46.1-FF6C37?style=for-the-badge)](https://allurereport.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
 </div>
 
 ---
 
-<p align="center">
-  <em>This root README is the <b>map</b>. Every project and assignment folder holds its own detailed README.</em>
-</p>
+## Table of Contents
 
-<table align="center">
-  <tr>
-    <td align="center" width="180">📋<br/><b>Task Breakdown</b><br/><sub>What was asked</sub></td>
-    <td align="center" width="180">🖼️<br/><b>Screenshots</b><br/><sub>Proof of execution</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="180">🎥<br/><b>Walkthrough</b><br/><sub>Video explanation</sub></td>
-    <td align="center" width="180">📝<br/><b>Code Notes</b><br/><sub>Line-level context</sub></td>
-  </tr>
-</table>
-
-<p align="center"><sub><b>Skip the scroll</b> — jump straight to any section below</sub></p>
-
-<h2 align="center">📖 Table of Contents</h2>
-
-<p align="center">
-  <a href="#-whats-inside"><img src="https://img.shields.io/badge/📦_What's_Inside-2C5BB4?style=for-the-badge&logoColor=white" /></a>
-  <a href="#-student-information"><img src="https://img.shields.io/badge/👤_Student_Info-6E4C1E?style=for-the-badge&logoColor=white" /></a>
-  <a href="#-capstone-project"><img src="https://img.shields.io/badge/🏗️_Capstone-FF6A00?style=for-the-badge&logoColor=white" /></a>
-  <a href="#-assignments-portfolio"><img src="https://img.shields.io/badge/📚_Assignments-3776AB?style=for-the-badge&logoColor=white" /></a>
-</p>
-<p align="center">
-  <a href="#-repository-structure"><img src="https://img.shields.io/badge/📁_Repo_Structure-2E6CB8?style=for-the-badge&logoColor=white" /></a>
-  <a href="#-quick-start"><img src="https://img.shields.io/badge/🚀_Quick_Start-5B4FCF?style=for-the-badge&logoColor=white" /></a>
-  <a href="#-acknowledgments"><img src="https://img.shields.io/badge/🙏_Acknowledgments-444441?style=for-the-badge&logoColor=white" /></a>
-</p>
-
----
-## 🗂️ What's Inside
-
-| Folder | Description | Own README? |
-|---|---|:--:|
-| 📁 [`Capstone_Project/`](./Capstone_Project/) | Python API Automation Framework (Requests + Behave + Allure + MySQL) | ✅ [`README_DETAILED.md`](./Capstone_Project/README_DETAILED.md) |
-| 📁 [`Assignments/Part_1_Automation_With_Selenium/`](./Assignments/Part_1_Automation_With_Selenium/) | Selenium locators, waits, alerts, web tables, windows & frames | ✅ |
-| 📁 [`Assignments/Part_2_Unit_Test_Frameworks/`](./Assignments/Part_2_Unit_Test_Frameworks/) | PyTest, Page Object Model, Data-Driven Testing, HTML reports | ✅ |
-| 📁 [`Assignments/Part_3_Python_BDD_Restful_Automations/`](./Assignments/Part_3_Python_BDD_Restful_Automations/) | Behave BDD framework + REST API automation | ✅ |
-| 📁 [`Assignments/Part_4_Robot_Framework/`](./Assignments/Part_4_Robot_Framework/) | Robot Framework basics, variables, and custom keywords | ✅ |
-
-> 💡 Each folder's own README opens automatically when you click into it on GitHub.
-
----
-
-## 👤 Student Information
-
-| Field | Details |
+| Section | What you'll find |
 |---|---|
-| **Name** | `<!-- ADD YOUR FULL NAME -->` |
-| **Enrollment No.** | `<!-- ADD ENROLLMENT NUMBER -->` |
-| **Class / Section** | `<!-- ADD CLASS & SECTION -->` |
-| **Department** | `<!-- ADD DEPARTMENT -->` |
-| **Course** | Python Automation |
-| **Submission Date** | `<!-- ADD DATE -->` |
+| [Overview](#overview) | What the framework does and why it was built |
+| [Demo Video & Screenshots](#demo-video--screenshots) | Watch the walkthrough · see the reports |
+| [Test Results](#test-results) | Latest full run summary |
+| [Architecture](#architecture) | Layered design + Mermaid diagram |
+| [Design Principles](#design-principles) | The six rules that shape the codebase |
+| [Tech Stack](#tech-stack) | Every library, tool, and version in use |
+| [Folder Structure](#folder-structure) | Full project tree with annotations |
+| [API Coverage](#api-coverage) | Endpoints automated, grouped by feature |
+| [Configuration](#configuration) | Environment files and MySQL setup |
+| [How to Run](#how-to-run) | Commands for every scenario |
+| [Reports](#reports) | Allure HTML report generation |
+| [Database Verification](#database-verification) | MySQL mirroring and assertions |
+| [Tags Reference](#tags-reference) | Every behave tag and what it targets |
+| [Docs](#docs) | Companion documents in this folder |
+| [Author](#author) | Submission details |
 
 ---
 
-## 🏗️ Capstone Project
+## Overview
 
-### Python API Automation Framework
-**Requests + Behave BDD · Allure Reporting · MySQL Validation**
+This is a **production-grade API automation framework** built around the **User Management API** of public REST services. It automates the full **CRUD lifecycle** — create, retrieve, update, delete — while also handling **authentication**, **negative paths**, **contract validation**, and **database mirroring**.
 
-A production-grade, layered API automation framework that automates the **User Management API** of public REST services. Built with a strict separation of concerns — BDD features, domain services, transport layer, and cross-cutting utilities — so that features never touch HTTP and services never know about BDD.
+The framework is written entirely in **Python 3.14** and orchestrated by **Behave** (BDD). Every scenario is expressed in **Gherkin**, with a clean separation between *what the test does* (features) and *how the API is called* (services + transport layer). This keeps the test suite readable by non-technical reviewers while remaining maintainable for engineers.
+
+Two public services are used:
+
+- **automationexercise.com** — for real user-management flows (create, login, update, delete, get-by-email)
+- **jsonplaceholder.typicode.com** — for contract and negative-path testing
+
+All payloads are generated via **Faker** with **UUID suffixes**, ensuring idempotent runs even when the same scenario executes back-to-back.
+
+---
+
+## Demo Video & Screenshots
 
 <div align="center">
 
-[![📄 Full README](https://img.shields.io/badge/📄_Full_README-View_Detailed_Docs-blue?style=for-the-badge)](./Capstone_Project/README_DETAILED.md)
-[![🎥 Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Watch_Walkthrough-red?style=for-the-badge)](<!-- ADD CAPSTONE DEMO VIDEO LINK -->)
-[![📊 Allure Report](https://img.shields.io/badge/📊_Allure_Report-Open_Report-orange?style=for-the-badge)](<!-- ADD ALLURE REPORT LINK -->)
+### Demo Walkthrough
+
+[![Watch Demo](https://img.shields.io/badge/Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](<!-- ADD CAPSTONE DEMO VIDEO LINK -->)
+
+*Full framework walkthrough — architecture, live test run, Allure report, and database verification.*
 
 </div>
 
+### Screenshots
+
+<div align="center">
+
+**Allure Report — Overview**
+![Allure Report Overview](<!-- ADD SCREENSHOT PATH e.g. ./docs/screenshots/allure-overview.png -->)
+
+**Allure Report — Scenario Detail**
+![Allure Scenario Detail](<!-- ADD SCREENSHOT PATH e.g. ./docs/screenshots/allure-scenario.png -->)
+
+**Test Execution Summary (CLI)**
+![Test Execution Summary](<!-- ADD SCREENSHOT PATH e.g. ./docs/screenshots/test-summary.png -->)
+
+**MySQL — User Mirror Table**
+![MySQL Table](<!-- ADD SCREENSHOT PATH e.g. ./docs/screenshots/mysql-table.png -->)
+
+</div>
+
+> Replace the placeholder paths above with actual screenshot files. Recommended location: `docs/screenshots/`.
+
 ---
 
-### 🎯 Overview
+## Test Results
 
-The framework validates a complete **CRUD lifecycle** of a user-management API — create, retrieve, update, and delete — while also handling **authentication**, **negative paths**, **contract validation**, and **database mirroring**. Payloads are Faker-generated with UUID suffixes to guarantee idempotent, repeatable runs, and sensitive fields (`password`, `token`, `authorization`, `api_key`, `secret`) are masked before every log write.
-
-**Last full run:**
+**Latest full run:**
 
 ```
-✅ 3 features passed   ·   0 failed
-✅ 21 scenarios passed ·   0 failed
-✅ 91 steps passed     ·   0 failed
-⏱️  Took 0min 29.742s
+3 features passed,  0 failed, 0 skipped
+21 scenarios passed, 0 failed, 0 skipped
+91 steps passed,    0 failed, 0 skipped
+Took 0min 29.742s
 ```
+
+**Pre-flight checks (all green):**
+
+| Check | Status |
+|---|---|
+| AutomationExercise API reachable | HTTP 200 |
+| JSONPlaceholder API reachable | HTTP 200 |
+| MySQL80 service running | Active |
+| Allure CLI installed | 2.46.1 |
+| Database seeded | 24 rows |
 
 ---
 
-### 🧱 Architecture — Layered
+## Architecture
 
-Dependency direction flows **one way (upward)**. Each layer only knows about the layer directly below it.
+The framework is **layered**, with dependency direction flowing **strictly upward**. Each layer only knows about the layer directly below it — nothing else.
 
 ```mermaid
 flowchart BT
@@ -145,158 +147,344 @@ flowchart BT
     style fw fill:none,stroke:#c7c5bb,stroke-dasharray:4 4
     style found fill:none,stroke:#c7c5bb,stroke-dasharray:4 4
 ```
-**Key design principles**
 
-- 🧩 **Features know nothing about HTTP** — pure Gherkin in, pure assertions out
-- 🧩 **Services know nothing about BDD** — reusable across any runner
-- 🧩 **Assertions live in `ResponseValidator`** — never inside services
-- 🧩 **Endpoints are centralized** — `services/_endpoints.py` is the single source of truth
-- 🧩 **Idempotent payloads** — Faker + UUID suffix on every run
-- 🧩 **Automatic masking** — sensitive fields scrubbed before logging
+### What each layer does
 
----
-
-### 🛠️ Tech Stack
-
-| Layer | Tools |
-|---|---|
-| **Language** | Python 3.14 |
-| **HTTP Client** | `requests` (Session + retry + timing) |
-| **BDD Framework** | `behave` (Gherkin features + step definitions) |
-| **Reporting** | Allure 2.46.1 |
-| **Data Generation** | Faker |
-| **Database** | MySQL 8.0 (dict cursor, context manager) |
-| **Config** | YAML (`dev` / `qa` / `prod`) |
-| **Schema Validation** | JSON Schema |
-| **Test Data** | YAML · JSON · CSV |
+| Layer | Responsibility | Files |
+|---|---|---|
+| **Test layer** | Gherkin scenarios + step bindings | `features/*.feature`, `features/steps/*.py`, `features/environment.py` |
+| **Framework layer — Domain** | Business actions against APIs — one class per resource | `services/user_service.py`, `auth_service.py`, `product_service.py`, `post_service.py` |
+| **Framework layer — Transport** | Raw HTTP calls, auth strategies, assertion helpers | `core/base_client.py`, `core/auth_handler.py`, `core/response_validator.py` |
+| **Foundation — Cross-cutting** | Shared utilities used everywhere | `utils/logger.py`, `config_loader.py`, `db_connector.py`, `db_repository.py`, `payload_factory.py`, `schema_loader.py`, `data_reader.py` |
+| **Foundation — Resources** | External data and configuration | `configs/*.yaml`, `testdata/*.yaml\|json\|csv`, `schemas/*.json` |
 
 ---
 
-### 📂 Folder Division (Top Level)
+## Design Principles
+
+Six rules shape the entire codebase:
+
+1. **Features know nothing about HTTP.** A `.feature` file describes user intent in plain English. It never mentions `GET`, `POST`, or status codes.
+2. **Services know nothing about BDD.** Service classes are reusable from any runner — behave, pytest, or a plain script. No step-decorators leak into `services/`.
+3. **Assertions live in `ResponseValidator`.** Services return `APIResponse` objects. The validator does the asserting. This keeps services pure and testable.
+4. **Endpoints are centralized.** Every URL constant lives in `services/_endpoints.py` — the single source of truth. No endpoint strings scattered across files.
+5. **Payloads are idempotent.** Faker generates data for each run, with UUID suffixes appended, so re-running never collides with existing records.
+6. **Sensitive fields are masked.** `password`, `token`, `authorization`, `api_key`, and `secret` are scrubbed from logs before any write to disk.
+
+---
+
+## Tech Stack
+
+| Layer | Tool | Version |
+|---|---|---|
+| Language | Python | 3.14 |
+| HTTP client | `requests` | 2.x (Session + retry + timing) |
+| BDD framework | `behave` | latest |
+| Reporting | Allure CLI | 2.46.1 |
+| Data generation | `faker` | latest |
+| Database | MySQL | 8.0 |
+| DB driver | `mysql-connector-python` | latest |
+| Config format | YAML | — |
+| Schema validation | JSON Schema | — |
+| Test data formats | YAML · JSON · CSV | — |
+
+---
+
+## Folder Structure
 
 ```
 Capstone_Project/
-├── run.py                  # CLI runner (--env, --tags, --allure, --clean)
-├── behave.ini              # Behave config + Allure formatter
-├── requirements.txt        # Pinned dependencies
-├── README.md               # Brief README
-├── README_DETAILED.md      # Full walkthrough (500+ lines)
+├── run.py                          CLI runner (--env, --tags, --allure, --clean)
+├── behave.ini                      Behave config + Allure formatter registration
+├── requirements.txt                Pinned dependencies
+├── README.md                       ← you are here
+├── README_DETAILED.md              Full walkthrough (500+ lines)
+├── .gitignore                      Python + reports + venv
 │
-├── configs/                # dev.yaml · qa.yaml · prod.yaml
-├── core/                   # base_client · auth_handler · response_validator
-├── services/               # user · auth · product · post  (+ _endpoints.py)
-├── utils/                  # config_loader · logger · db · payload_factory · schema_loader
-├── features/               # *.feature files + steps/
-├── testdata/               # users.yaml · invalid_users.yaml · products.csv
-├── schemas/                # JSON schemas for contract validation
-├── db/                     # schema.sql · init_db.py
-├── reports/                # allure-results/ · allure-report/
-├── logs/                   # framework.log (rotating)
-└── docs/                   # architecture.md · test_strategy.md · demo_script.md · viva_qna.md
+├── configs/
+│   ├── __init__.py                 Re-exports Config
+│   ├── dev.yaml                    Active environment: dev, MySQL creds, base URLs
+│   ├── qa.yaml                     QA environment override
+│   └── prod.yaml                   Production environment override
+│
+├── core/
+│   ├── __init__.py                 Re-exports BaseClient, APIResponse, etc.
+│   ├── base_client.py              Session + retry + masking + timing
+│   ├── auth_handler.py             Strategy pattern: NoAuth, Basic, Bearer, ApiKey, Cookie
+│   └── response_validator.py       Static assertion helpers (status, schema, time, body)
+│
+├── services/
+│   ├── __init__.py
+│   ├── _endpoints.py               Centralized endpoint constants (AEEndpoints, JPEndpoints)
+│   ├── user_service.py             create · delete · update · get_user_by_email
+│   ├── auth_service.py             verify_login + JSONPlaceholder user profile
+│   ├── product_service.py          products · brands · search · negative methods
+│   └── post_service.py             JSONPlaceholder CRUD
+│
+├── utils/
+│   ├── __init__.py                 Re-exports all utils
+│   ├── config_loader.py            Singleton Config with dotted-path lookup
+│   ├── logger.py                   Idempotent logger factory (console + rotating file)
+│   ├── data_reader.py              YAML/JSON/CSV + Scenario-Outline helpers
+│   ├── db_connector.py             MySQL wrapper (lazy, dict cursor, context manager)
+│   ├── db_repository.py            UserRepository CRUD
+│   ├── payload_factory.py          Faker-based generators
+│   └── schema_loader.py            Cached JSON schema loader
+│
+├── features/
+│   ├── __init__.py                 EMPTY (required by behave)
+│   ├── environment.py              Behave hooks + Allure attachments
+│   ├── user_management.feature     6 scenarios (create, retrieve, update, delete, schema, DB)
+│   ├── authentication.feature      4 outline rows + 2 scenarios (valid login, DELETE 405)
+│   ├── product_catalog.feature     8 scenarios (products, brands, search, negatives)
+│   └── steps/
+│       ├── __init__.py             EMPTY
+│       ├── common_steps.py         Shared: status, message, schema, min-products
+│       ├── user_management_steps.py User CRUD + DB mirroring
+│       ├── auth_steps.py           Login steps
+│       └── product_steps.py        Catalog steps
+│
+├── testdata/
+│   ├── users.yaml                  3 valid users
+│   ├── invalid_users.yaml          5 negative login cases
+│   ├── products.csv                Search terms
+│   └── payloads/
+│       └── create_user.json        Fallback template
+│
+├── schemas/
+│   ├── user_schema.json
+│   ├── product_schema.json         Allows usertype as object OR string (AE quirk)
+│   ├── error_schema.json
+│   ├── login_response_schema.json
+│   └── jsonplaceholder_post_schema.json
+│
+├── db/
+│   ├── schema.sql                  DDL for api_automation_db.user_management
+│   └── init_db.py                  Creates database + table
+│
+├── reports/
+│   ├── allure-results/             Raw JSON (input to Allure CLI)
+│   └── allure-report/              HTML (output of `allure generate`)
+│
+├── logs/
+│   └── framework.log               Rotating log file
+│
+└── docs/
+    ├── architecture.md             Diagram + data flow
+    ├── test_strategy.md            Scope, tags, risks
+    ├── demo_script.md              5–7 minute demo plan
+    ├── viva_qna.md                 Anticipated viva Q&A
+    └── screenshots/                Images used in this README
 ```
 
-> 📌 **Note**
-> The Capstone_Project folder contains its **own detailed READMEs** covering the full walkthrough, architecture deep-dive, test strategy, demo script, and anticipated viva Q&A. Refer to [`Capstone_Project/README_DETAILED.md`](./Capstone_Project/README_DETAILED.md) for the complete picture.
+---
+
+## API Coverage
+
+### AutomationExercise — User Management
+
+| Feature | Endpoints Covered |
+|---|---|
+| Create user | `POST /api/createAccount` |
+| Delete user | `DELETE /api/deleteAccount` |
+| Update user | `PUT /api/updateAccount` |
+| Get user by email | `GET /api/getUserDetailByEmail` |
+| Verify login | `POST /api/verifyLogin` |
+| Negative login | `POST /api/verifyLogin` (missing parameter, invalid credentials) |
+
+### AutomationExercise — Product Catalog
+
+| Feature | Endpoints Covered |
+|---|---|
+| List all products | `GET /api/productsList` |
+| List all brands | `GET /api/brandsList` |
+| Search product | `POST /api/searchProduct` |
+| Negative product search | `POST /api/searchProduct` (missing parameter) |
+| Unsupported method | `POST /api/productsList` → expects `405` |
+
+### JSONPlaceholder — Contract & CRUD
+
+| Feature | Endpoints Covered |
+|---|---|
+| Post CRUD | `GET · POST · PUT · PATCH · DELETE /posts/{id}` |
+| User profile | `GET /users/{id}` |
+| Contract validation | All of the above — validated against JSON schemas |
 
 ---
 
-### 🏷️ Tags in Use
+## Configuration
 
-`@smoke` · `@regression` · `@negative` · `@contract` · `@database` · `@auth` · `@user_mgmt` · `@catalog`
+Environment files live in `configs/`. The active environment is selected via `--env` on the CLI, defaulting to `dev`.
 
----
+**`configs/dev.yaml`:**
 
-## 📚 Assignments Portfolio
+```yaml
+base_urls:
+  automation_exercise: "https://automationexercise.com/api"
+  jsonplaceholder: "https://jsonplaceholder.typicode.com"
 
-All assignments are organized under four thematic parts. Each row links directly to its source file and an explanatory video.
+database:
+  host: "localhost"
+  port: 3306
+  user: "root"
+  password: "****"          # YAML-quoted
+  name: "api_automation_db"
 
-| # | Part | Assignment | Code | Video |
-|:--:|---|---|:--:|:--:|
-| 1 | Selenium | **Locators** — Login to saucedemo.com using ID, Name, and XPath strategies | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_1_locators.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 2 | Selenium | **Synchronization** — Explicit waits with WebDriverWait (no `time.sleep()`) | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_2_sync.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 4 | Selenium | **JavaScript Alerts** — Handle Alert, Confirm, and Prompt dialogs | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_4_alerts.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 5 | Selenium | **Web Tables** — Iterate rows/columns, find by string match, extract adjacent value | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_5_webtables.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 6 | Selenium | **Windows · Tabs · Frames** — Switch contexts with `switch_to.frame()` and `window_handles` | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_6_windows_frames.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 7 | PyTest | **Page Object Model** — BasePage → LoginPage → PyTest tests with separated assertions | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_7_pom/) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 8 | PyTest | **Data-Driven Testing** — CSV + `@pytest.mark.parametrize` over multiple login combos | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_8_ddt.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 9 | PyTest | **HTML Reporting** — Module-scoped fixture + `pytest-html` self-contained report | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_9_pytest_html.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| B1 | Behave | **BDD Framework** — Gherkin scenarios + step definitions for login flows | [📄](./Assignments/Part_3_Python_BDD_Restful_Automations/features/login.feature) | [🎥](<!-- ADD VIDEO LINK -->) |
-| B2 | Behave | **Data-Driven API** — POST JSON payloads, validate 201 + response body | [📄](./Assignments/Part_3_Python_BDD_Restful_Automations/assignment_2_api_data_driven.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| R1 | Robot | **Basic Syntax** — SeleniumLibrary keywords for login + inventory verification | [📄](./Assignments/Part_4_Robot_Framework/assignment_1_basic.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
-| R2 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [📄](./Assignments/Part_4_Robot_Framework/assignment_2_variables.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
-| R3 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [📄](./Assignments/Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
-
-> 💡 **Note:** Each assignment folder contains its **own README** with a detailed explanation, screenshots, and a walkthrough video. This root README links directly to the source code and the accompanying video for convenience.
-
-> ⚠️ **Note on numbering:** There is no Assignment 3 in Part 1 — the syllabus intentionally skips from 2 to 4.
-
----
-
-## 📁 Repository Structure
-
+timeouts:
+  request: 30
+  retries: 3
 ```
-Submission/
-├── README.md                           ← you are here
-├── Capstone_Project/
-│   ├── README.md
-│   ├── README_DETAILED.md
-│   └── (full framework — see Capstone section)
-└── Assignments/
-    ├── run_all.ps1
-    ├── Part_1_Automation_With_Selenium/
-    ├── Part_2_Unit_Test_Frameworks/
-    ├── Part_3_Python_BDD_Restful_Automations/
-    └── Part_4_Robot_Framework/
-```
 
----
-
-## 🚀 Quick Start
-
-### Capstone_Project
+To switch environments:
 
 ```powershell
-cd Capstone_Project
+python run.py --env=qa
+```
+
+---
+
+## How to Run
+
+### Activate the virtual environment
+
+```powershell
 .\.venv\Scripts\Activate.ps1
-python run.py                        # all scenarios on dev
-python run.py --tags=@smoke          # smoke only
-python run.py --tags=@database       # DB verification only
-python run.py --allure               # full run + Allure HTML
-allure open reports/allure-report    # view report
 ```
 
-### Assignments
+### Full suite (all scenarios, dev environment)
 
 ```powershell
-cd Assignments
-.\venv\Scripts\Activate.ps1
-.\run_all.ps1                        # run everything
+python run.py
 ```
 
-Individual runners:
+### Filter by tag
 
 ```powershell
-python Part_1_Automation_With_Selenium\assignment_1_locators.py
-pytest Part_2_Unit_Test_Frameworks\assignment_8_ddt.py
-behave Part_3_Python_BDD_Restful_Automations
-robot  Part_4_Robot_Framework
+python run.py --tags=@smoke
+python run.py --tags=@database
+python run.py --tags=@negative
+```
+
+### Generate Allure report
+
+```powershell
+python run.py --allure
+allure open reports/allure-report
+```
+
+### Clean previous results
+
+```powershell
+python run.py --clean
+```
+
+### Switch environment
+
+```powershell
+python run.py --env=qa
+```
+
+### Raw behave (bypassing run.py)
+
+```powershell
+behave
+behave features/user_management.feature
+behave --tags=@contract
 ```
 
 ---
 
-## 🙏 Acknowledgments
+## Reports
 
-- Course instructors and mentors for the structured syllabus
-- [automationexercise.com](https://automationexercise.com/) & [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/) — public APIs used for testing
-- [saucedemo.com](https://www.saucedemo.com/) — practice site for Selenium assignments
-- Open-source communities behind `requests`, `behave`, `pytest`, `robotframework`, and `allure`
+Allure collects results during every behave run and writes them to `reports/allure-results/`. The HTML report is generated by:
+
+```powershell
+allure generate reports/allure-results -o reports/allure-report --clean
+allure open reports/allure-report
+```
+
+The report includes:
+
+- Pass/fail breakdown per feature and scenario
+- Full step logs with request/response attachments
+- Screenshots and JSON payloads (where attached by hooks)
+- Timing per step and per scenario
+- Environment info and tag filters
+
+> Sensitive values are masked before they reach Allure — passwords and tokens never appear in reports.
+
+---
+
+## Database Verification
+
+The framework mirrors a subset of User Management operations into MySQL so that DB-level assertions can run alongside API assertions.
+
+**Database:** `api_automation_db`
+**Table:** `user_management`
+**Schema:** `db/schema.sql`
+
+Initialise the database:
+
+```powershell
+python db/init_db.py
+```
+
+Rows are added automatically when `@database` scenarios run — the repository writes to `user_management` after each successful API create. Assertions like *"the user exists in the database"* then query the same table via `UserRepository`.
+
+---
+
+## Tags Reference
+
+| Tag | Purpose |
+|---|---|
+| `@smoke` | Fast sanity check — critical paths only |
+| `@regression` | Full functional coverage |
+| `@negative` | Error paths and invalid inputs |
+| `@contract` | Response body validated against JSON schemas |
+| `@database` | Scenarios that assert against MySQL |
+| `@auth` | Login and authentication flows |
+| `@user_mgmt` | Create / read / update / delete user flows |
+| `@catalog` | Product and brand catalog flows |
+
+Combine tags with:
+
+```powershell
+python run.py --tags=@smoke --tags=@auth
+```
+
+---
+
+## Docs
+
+Companion documents inside this folder:
+
+| File | Contents |
+|---|---|
+| [`README_DETAILED.md`](./README_DETAILED.md) | 500+ line walkthrough — every module explained |
+| [`docs/architecture.md`](./docs/architecture.md) | Deep dive on layering + data flow |
+| [`docs/test_strategy.md`](./docs/test_strategy.md) | Scope, in-scope APIs, tags, risks |
+| [`docs/demo_script.md`](./docs/demo_script.md) | 5–7 minute demo plan for the viva |
+| [`docs/viva_qna.md`](./docs/viva_qna.md) | Anticipated questions with prepared answers |
+
+---
+
+## Author
+
+| Field | Details |
+|---|---|
+| **Name** | `<!-- ADD YOUR FULL NAME -->` |
+| **Enrollment No.** | `<!-- ADD ENROLLMENT NUMBER -->` |
+| **Class / Section** | `<!-- ADD CLASS & SECTION -->` |
+| **Department** | `<!-- ADD DEPARTMENT -->` |
+| **Course** | Python Automation |
+| **Submission Date** | `<!-- ADD DATE -->` |
 
 ---
 
 <div align="center">
 
-**⭐ Built with Python, patience, and a lot of green test runs.**
+**Built with Python · Behave · Requests · Allure · MySQL**
 
-`<!-- ADD YOUR NAME -->` · `<!-- ADD ENROLLMENT NUMBER -->` · `<!-- ADD DEPARTMENT -->`
+*Dependency flows one way — nothing flows back up.*
 
 </div>
