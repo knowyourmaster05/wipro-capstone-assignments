@@ -49,33 +49,6 @@
 </p>
 
 ---
-## 🗂️ What's Inside
-
-| Folder | Description | Own README? |
-|---|---|:--:|
-| 📁 [`Capstone_Project/`](./Capstone_Project/) | Python API Automation Framework (Requests + Behave + Allure + MySQL) | ✅ [`README_DETAILED.md`](./Capstone_Project/README_DETAILED.md) |
-| 📁 [`Assignments/Part_1_Automation_With_Selenium/`](./Assignments/Part_1_Automation_With_Selenium/) | Selenium locators, waits, alerts, web tables, windows & frames | ✅ |
-| 📁 [`Assignments/Part_2_Unit_Test_Frameworks/`](./Assignments/Part_2_Unit_Test_Frameworks/) | PyTest, Page Object Model, Data-Driven Testing, HTML reports | ✅ |
-| 📁 [`Assignments/Part_3_Python_BDD_Restful_Automations/`](./Assignments/Part_3_Python_BDD_Restful_Automations/) | Behave BDD framework + REST API automation | ✅ |
-| 📁 [`Assignments/Part_4_Robot_Framework/`](./Assignments/Part_4_Robot_Framework/) | Robot Framework basics, variables, and custom keywords | ✅ |
-
-> 💡 Each folder's own README opens automatically when you click into it on GitHub.
-
----
-
-## 👤 Student Information
-
-| Field | Details |
-|---|---|
-| **Name** | `<!-- ADD YOUR FULL NAME -->` |
-| **Enrollment No.** | `<!-- ADD ENROLLMENT NUMBER -->` |
-| **Class / Section** | `<!-- ADD CLASS & SECTION -->` |
-| **Department** | `<!-- ADD DEPARTMENT -->` |
-| **Course** | Python Automation |
-| **Submission Date** | `<!-- ADD DATE -->` |
-
----
-
 ## 🏗️ Capstone Project
 
 ### Python API Automation Framework
@@ -281,7 +254,20 @@ pytest Part_2_Unit_Test_Frameworks\assignment_8_ddt.py
 behave Part_3_Python_BDD_Restful_Automations
 robot  Part_4_Robot_Framework
 ```
+---
 
+## 👤 Student Information
+
+| Field | Details |
+|---|---|
+| **Name** | `<!-- ADD YOUR FULL NAME -->` |
+| **Enrollment No.** | `<!-- ADD ENROLLMENT NUMBER -->` |
+| **Class / Section** | `<!-- ADD CLASS & SECTION -->` |
+| **Department** | `<!-- ADD DEPARTMENT -->` |
+| **Course** | Python Automation |
+| **Submission Date** | `<!-- ADD DATE -->` |
+
+---
 ---
 
 ## 🙏 Acknowledgments
