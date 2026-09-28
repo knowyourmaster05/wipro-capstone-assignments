@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐍 Capstone Project, Report & Assigmnets
+# 🐍 Capstone Project (3rd), Report & Assigmnets
 
 ### By Dibyojyoti Datta
 
