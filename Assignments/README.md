@@ -237,7 +237,6 @@ After running Robot, open `report.html` and `log.html` in the same directory.
 
 ## Notes
 
-- **Assignment 3 is intentionally absent** in Part 1 — the syllabus skips from 2 to 4.
 - Robot Framework generates `report.html`, `log.html`, and `output.xml` in the working directory on each run.
 - PyTest HTML report is generated via the `pytest-html` plugin with `--self-contained-html` so the file is portable.
 - All scripts use explicit waits — `time.sleep()` is avoided except where a specific assignment explicitly forbids it.
