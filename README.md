@@ -187,7 +187,6 @@ Capstone_Project/
 
 All assignments are organized under four thematic parts. Each row links directly to its source file and an explanatory video.
 
-```markdown
 | # | Part | Assignment | Code | Video |
 |:--:|---|---|:--:|:--:|
 | 1 | Selenium | **Locators** — Login to saucedemo.com using ID, Name, and XPath strategies | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_1_locators.py) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
@@ -204,7 +203,6 @@ All assignments are organized under four thematic parts. Each row links directly
 | 12 | Robot | **Basic Syntax** — SeleniumLibrary keywords for login + inventory verification | [📄](./Assignments/Part_4_Robot_Framework/assignment_1_basic.robot) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
 | 13 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [📄](./Assignments/Part_4_Robot_Framework/assignment_2_variables.robot) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
 | 14 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [📄](./Assignments/Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
-```
 
 > 💡 **Note:** Each assignment folder contains its **own README** with a detailed explanation, screenshots, and a walkthrough video. This root README links directly to the source code and the accompanying video for convenience.
 
