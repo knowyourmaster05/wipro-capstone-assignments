@@ -222,17 +222,19 @@ All assignments are organized under four thematic parts. Each row links directly
 
 ```
 Submission/
-├── README.md                           ← you are here
-├── Capstone_Project/
+├── README.md                       ← you are here
+├── Assignments/                    ← all assignment code (Parts 1–4)
+│   ├── run_all.ps1
+│   ├── Part_1_Automation_With_Selenium/
+│   ├── Part_2_Unit_Test_Frameworks/
+│   ├── Part_3_Python_BDD_Restful_Automations/
+│   └── Part_4_Robot_Framework/
+├── Capstone_Project/               ← full framework source
 │   ├── README.md
-│   ├── README_DETAILED.md
-│   └── (full framework — see Capstone section)
-└── Assignments/
-    ├── run_all.ps1
-    ├── Part_1_Automation_With_Selenium/
-    ├── Part_2_Unit_Test_Frameworks/
-    ├── Part_3_Python_BDD_Restful_Automations/
-    └── Part_4_Robot_Framework/
+│   └── README_DETAILED.md
+├── Capstone_Project_Video/         ← explanation video(s)
+├── Certificates/                   ← course completion certificates
+└── Report/                         ← full detailed report (docs, logs, Allure, screenshots)
 ```
 
 ---
