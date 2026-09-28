@@ -69,17 +69,10 @@ All payloads are generated via **Faker** with **UUID suffixes**, ensuring idempo
 
 <div align="center">
 
-**Allure Report — Overview**
-![Allure Report Overview](<!-- ADD SCREENSHOT PATH e.g. ./docs/screenshots/allure-overview.png -->)
-
-**Allure Report — Scenario Detail**
-![Allure Scenario Detail](<!-- ADD SCREENSHOT PATH e.g. ./docs/screenshots/allure-scenario.png -->)
-
-**Test Execution Summary (CLI)**
-![Test Execution Summary](<!-- ADD SCREENSHOT PATH e.g. ./docs/screenshots/test-summary.png -->)
-
-**MySQL — User Mirror Table**
-![MySQL Table](<!-- ADD SCREENSHOT PATH e.g. ./docs/screenshots/mysql-table.png -->)
+<img width="1262" height="662" alt="image" src="https://github.com/user-attachments/assets/12894560-90bc-4a74-bf48-1fff96451966" />
+<img width="1258" height="598" alt="image" src="https://github.com/user-attachments/assets/8d477cf1-2225-40a2-9e5e-b3f4c70bbf6d" />
+<img width="1255" height="570" alt="image" src="https://github.com/user-attachments/assets/a8a974fe-8ec4-42c2-895f-5757e51c7a44" />
+<img width="1265" height="556" alt="image" src="https://github.com/user-attachments/assets/4c996c9d-8cb1-4858-88dc-d4ee5f920328" />
 
 </div>
 
