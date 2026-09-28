@@ -68,12 +68,9 @@ All payloads are generated via **Faker** with **UUID suffixes**, ensuring idempo
 ### Screenshots
 
 <div align="center">
-
-<img width="1262" height="662" alt="image" src="https://github.com/user-attachments/assets/12894560-90bc-4a74-bf48-1fff96451966" />
-<img width="1258" height="598" alt="image" src="https://github.com/user-attachments/assets/8d477cf1-2225-40a2-9e5e-b3f4c70bbf6d" />
-<img width="1255" height="570" alt="image" src="https://github.com/user-attachments/assets/a8a974fe-8ec4-42c2-895f-5757e51c7a44" />
-<img width="1265" height="556" alt="image" src="https://github.com/user-attachments/assets/4c996c9d-8cb1-4858-88dc-d4ee5f920328" />
-
+    <img src="https://github.com/user-attachments/assets/8b333e5f-10e5-4c47-9d78-95c8f0ecb002" />
+    <img src="https://github.com/user-attachments/assets/ee2dfea3-1871-4e90-b721-6c86208721fb" />
+    <img src="https://github.com/user-attachments/assets/35052825-279a-4470-90ca-49073f4a6c1e" />
 </div>
 
 > Replace the placeholder paths above with actual screenshot files. Recommended location: `docs/screenshots/`.
