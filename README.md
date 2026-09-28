@@ -63,8 +63,8 @@ A production-grade, layered API automation framework that automates the **User M
   </tr>
 </table>
 
-[![📄 Full Report](https://img.shields.io/badge/📄_Full_README-View_Detailed_Docs-blue?style=for-the-badge)](./Capstone_Project/README_DETAILED.md)
-[![🎥 Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Watch_Walkthrough-red?style=for-the-badge)](<!-- ADD CAPSTONE DEMO VIDEO LINK -->)
+[![📄 Full Report](https://img.shields.io/badge/📄_Full_README-View_Detailed_Docs-blue?style=for-the-badge)](https://github.com/knowyourmaster05/wipro-capstone-assignments/tree/main/Report)
+[![🎥 Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Watch_Walkthrough-red?style=for-the-badge)](https://drive.google.com/drive/folders/117MXWunjaJcR2FqhbYqhlbEuV-AdYzGT)
 
 </div>
 
