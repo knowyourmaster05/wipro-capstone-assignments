@@ -2,7 +2,7 @@
 
 # Python API Automation Framework
 
-### Capstone Project · Python Automation Course · 2026
+### Capstone Project · Project - 3 · 2026
 
 **Requests + Behave BDD · Allure Reporting · MySQL Validation**
 
@@ -465,13 +465,12 @@ Companion documents inside this folder:
 
 | Field | Details |
 |---|---|
-| **Name** | `<!-- ADD YOUR FULL NAME -->` |
-| **Enrollment No.** | `<!-- ADD ENROLLMENT NUMBER -->` |
-| **Class / Section** | `<!-- ADD CLASS & SECTION -->` |
-| **Department** | `<!-- ADD DEPARTMENT -->` |
+| **Name** | Dibyojyoti Datta |
+| **Enrollment No.** | 12023002001100 |
+| **Class / Section** | A_82 |
+| **Department** | CSE |
 | **Course** | Python Automation |
-| **Submission Date** | `<!-- ADD DATE -->` |
-
+| **Submission Date** | 28.08.2026 |
 ---
 
 <div align="center">
