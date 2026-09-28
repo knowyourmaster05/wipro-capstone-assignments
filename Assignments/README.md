@@ -13,39 +13,6 @@
 [![Robot](https://img.shields.io/badge/Robot_Framework-000000?style=for-the-badge&logo=robotframework&logoColor=white)](https://robotframework.org/)
 
 </div>
-
----
-
-## Table of Contents
-
-| Section | What you'll find |
-|---|---|
-| [Overview](#overview) | What this folder contains |
-| [Demo Video & Screenshots](#demo-video--screenshots) | Walkthrough video + visual proof |
-| [Assignments at a Glance](#assignments-at-a-glance) | Full index table with code + video links |
-| [Part 1 — Automation with Selenium](#part-1--automation-with-selenium) | Locators, waits, alerts, tables, windows |
-| [Part 2 — Unit Test Frameworks](#part-2--unit-test-frameworks) | POM, DDT, HTML reporting |
-| [Part 3 — Python BDD + REST API](#part-3--python-bdd--rest-api) | Behave + Requests |
-| [Part 4 — Robot Framework](#part-4--robot-framework) | Basics, variables, custom keywords |
-| [Folder Structure](#folder-structure) | Full directory tree |
-| [Dependencies](#dependencies) | Required libraries and versions |
-| [How to Run](#how-to-run) | Every command you need |
-| [Test Sites Used](#test-sites-used) | Public sites and endpoints |
-| [Notes](#notes) | Course-specific remarks |
-
----
-
-## Overview
-
-This folder contains **all course assignments**, organized into four thematic parts that mirror the syllabus progression:
-
-1. **Selenium WebDriver** — browser automation fundamentals
-2. **Unit Test Frameworks** — PyTest, Page Object Model, data-driven testing
-3. **BDD + REST API** — Behave (Gherkin) and Requests-based API testing
-4. **Robot Framework** — keyword-driven automation
-
-Each part has its own subfolder with runnable scripts, test data, and — in some cases — its own `README.md` with a deeper explanation.
-
 ---
 
 ## Assignments at a Glance
