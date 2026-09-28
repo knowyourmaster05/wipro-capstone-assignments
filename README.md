@@ -1,10 +1,8 @@
 <div align="center">
 
-# 🐍 Python Automation Portfolio
+# 🐍 Capstone Project, Report & Assigmnets
 
-### Capstone Project & Assignment Submissions
-
-**Python Automation Course · 2026**
+### By Dibyojyoti Datta
 
 [![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Selenium](https://img.shields.io/badge/Selenium-4.x-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://selenium.dev/)
@@ -65,7 +63,7 @@ A production-grade, layered API automation framework that automates the **User M
   </tr>
 </table>
 
-[![📄 Full README](https://img.shields.io/badge/📄_Full_README-View_Detailed_Docs-blue?style=for-the-badge)](./Capstone_Project/README_DETAILED.md)
+[![📄 Full Report](https://img.shields.io/badge/📄_Full_README-View_Detailed_Docs-blue?style=for-the-badge)](./Capstone_Project/README_DETAILED.md)
 [![🎥 Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Watch_Walkthrough-red?style=for-the-badge)](<!-- ADD CAPSTONE DEMO VIDEO LINK -->)
 
 </div>
@@ -189,22 +187,24 @@ Capstone_Project/
 
 All assignments are organized under four thematic parts. Each row links directly to its source file and an explanatory video.
 
+```markdown
 | # | Part | Assignment | Code | Video |
 |:--:|---|---|:--:|:--:|
-| 1 | Selenium | **Locators** — Login to saucedemo.com using ID, Name, and XPath strategies | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_1_locators.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 2 | Selenium | **Synchronization** — Explicit waits with WebDriverWait (no `time.sleep()`) | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_2_sync.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 3 | Selenium | **Dropdowns & Checkboxes** — Verify state with `.is_selected()`; autocomplete dropdown loop | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_3_dropdowns_checkboxes.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 4 | Selenium | **JavaScript Alerts** — Handle Alert, Confirm, and Prompt dialogs | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_4_alerts.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 5 | Selenium | **Web Tables** — Iterate rows/columns, find by string match, extract adjacent value | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_5_webtables.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 6 | Selenium | **Windows · Tabs · Frames** — Switch contexts with `switch_to.frame()` and `window_handles` | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_6_windows_frames.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 7 | PyTest | **Page Object Model** — BasePage → LoginPage → PyTest tests with separated assertions | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_7_pom/) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 8 | PyTest | **Data-Driven Testing** — CSV + `@pytest.mark.parametrize` over multiple login combos | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_8_ddt.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 9 | PyTest | **HTML Reporting** — Module-scoped fixture + `pytest-html` self-contained report | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_9_pytest_html.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 10 | Behave | **BDD Framework** — Gherkin scenarios + step definitions for login flows | [📄](./Assignments/Part_3_Python_BDD_Restful_Automations/features/login.feature) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 11 | Behave | **Data-Driven API** — POST JSON payloads, validate 201 + response body | [📄](./Assignments/Part_3_Python_BDD_Restful_Automations/assignment_2_api_data_driven.py) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 12 | Robot | **Basic Syntax** — SeleniumLibrary keywords for login + inventory verification | [📄](./Assignments/Part_4_Robot_Framework/assignment_1_basic.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 13 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [📄](./Assignments/Part_4_Robot_Framework/assignment_2_variables.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
-| 14 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [📄](./Assignments/Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [🎥](<!-- ADD VIDEO LINK -->) |
+| 1 | Selenium | **Locators** — Login to saucedemo.com using ID, Name, and XPath strategies | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_1_locators.py) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 2 | Selenium | **Synchronization** — Explicit waits with WebDriverWait (no `time.sleep()`) | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_2_sync.py) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 3 | Selenium | **Dropdowns & Checkboxes** — Verify state with `.is_selected()`; autocomplete dropdown loop | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_3_dropdowns_checkboxes.py) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 4 | Selenium | **JavaScript Alerts** — Handle Alert, Confirm, and Prompt dialogs | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_4_alerts.py) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 5 | Selenium | **Web Tables** — Iterate rows/columns, find by string match, extract adjacent value | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_5_webtables.py) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 6 | Selenium | **Windows · Tabs · Frames** — Switch contexts with `switch_to.frame()` and `window_handles` | [📄](./Assignments/Part_1_Automation_With_Selenium/assignment_6_windows_frames.py) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 7 | PyTest | **Page Object Model** — BasePage → LoginPage → PyTest tests with separated assertions | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_7_pom/) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 8 | PyTest | **Data-Driven Testing** — CSV + `@pytest.mark.parametrize` over multiple login combos | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_8_ddt.py) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 9 | PyTest | **HTML Reporting** — Module-scoped fixture + `pytest-html` self-contained report | [📄](./Assignments/Part_2_Unit_Test_Frameworks/assignment_9_pytest_html.py) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 10 | Behave | **BDD Framework** — Gherkin scenarios + step definitions for login flows | [📄](./Assignments/Part_3_Python_BDD_Restful_Automations/features/login.feature) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 11 | Behave | **Data-Driven API** — POST JSON payloads, validate 201 + response body | [📄](./Assignments/Part_3_Python_BDD_Restful_Automations/assignment_2_api_data_driven.py) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 12 | Robot | **Basic Syntax** — SeleniumLibrary keywords for login + inventory verification | [📄](./Assignments/Part_4_Robot_Framework/assignment_1_basic.robot) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 13 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [📄](./Assignments/Part_4_Robot_Framework/assignment_2_variables.robot) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 14 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [📄](./Assignments/Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [🎥](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+```
 
 > 💡 **Note:** Each assignment folder contains its **own README** with a detailed explanation, screenshots, and a walkthrough video. This root README links directly to the source code and the accompanying video for convenience.
 
@@ -275,13 +275,12 @@ robot  Part_4_Robot_Framework
 
 | Field | Details |
 |---|---|
-| **Name** | `<!-- ADD YOUR FULL NAME -->` |
-| **Enrollment No.** | `<!-- ADD ENROLLMENT NUMBER -->` |
-| **Class / Section** | `<!-- ADD CLASS & SECTION -->` |
-| **Department** | `<!-- ADD DEPARTMENT -->` |
+| **Name** | Dibyojyoti Datta |
+| **Enrollment No.** | 12023002001100 |
+| **Class / Section** | A_82 |
+| **Department** | CSE |
 | **Course** | Python Automation |
-| **Submission Date** | `<!-- ADD DATE -->` |
-
+| **Submission Date** | 28.08.2026 |
 ---
 ## 🙏 Acknowledgments
 
@@ -296,6 +295,6 @@ robot  Part_4_Robot_Framework
 
 **⭐ Built with Python, patience, and a lot of green test runs.**
 
-`<!-- ADD YOUR NAME -->` · `<!-- ADD ENROLLMENT NUMBER -->` · `<!-- ADD DEPARTMENT -->`
+`Dibyojyoti Datta` · `12023002001100` · `CSE`
 
 </div>
