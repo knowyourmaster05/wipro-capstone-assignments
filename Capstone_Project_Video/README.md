@@ -20,6 +20,4 @@
   <img src="https://github.com/user-attachments/assets/35052825-279a-4470-90ca-49073f4a6c1e" />
 </div>
 
-> Replace the placeholder paths above with actual screenshot files. Recommended location: `docs/screenshots/`.
-
 ---
