@@ -8,7 +8,7 @@
 
 [![Watch Demo](https://img.shields.io/badge/Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/drive/folders/117MXWunjaJcR2FqhbYqhlbEuV-AdYzGT)
 
-*Full framework walkthrough — architecture, live test run, Allure report, and database verification.*
+*Full framework walkthrough — architecture, live test run, Allure report, and database verification.* 
 
 </div>
 
