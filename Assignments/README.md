@@ -19,20 +19,20 @@
 
 | # | Part | Assignment | Code | Video |
 |:--:|---|---|:--:|:--:|
-| 1 | Selenium | **Locators** — Login to saucedemo.com using ID, Name, and XPath strategies | [Code](./Part_1_Automation_With_Selenium/assignment_1_locators.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| 2 | Selenium | **Synchronization** — Explicit waits with WebDriverWait (no `time.sleep()`) | [Code](./Part_1_Automation_With_Selenium/assignment_2_sync.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| 3 | Selenium | **Dropdowns & Checkboxes** — Verify state with `.is_selected()`; autocomplete dropdown loop | [Code](./Part_1_Automation_With_Selenium/assignment_3_dropdowns_checkboxes.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| 4 | Selenium | **JavaScript Alerts** — Handle Alert, Confirm, and Prompt dialogs | [Code](./Part_1_Automation_With_Selenium/assignment_4_alerts.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| 5 | Selenium | **Web Tables** — Iterate rows/columns, find by string match, extract adjacent value | [Code](./Part_1_Automation_With_Selenium/assignment_5_webtables.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| 6 | Selenium | **Windows · Tabs · Frames** — Switch contexts with `switch_to.frame()` and `window_handles` | [Code](./Part_1_Automation_With_Selenium/assignment_6_windows_frames.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| 7 | PyTest | **Page Object Model** — BasePage → LoginPage → PyTest tests with separated assertions | [Code](./Part_2_Unit_Test_Frameworks/assignment_7_pom/) | [Video](<!-- ADD VIDEO LINK -->) |
-| 8 | PyTest | **Data-Driven Testing** — CSV + `@pytest.mark.parametrize` over multiple login combos | [Code](./Part_2_Unit_Test_Frameworks/assignment_8_ddt.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| 9 | PyTest | **HTML Reporting** — Module-scoped fixture + `pytest-html` self-contained report | [Code](./Part_2_Unit_Test_Frameworks/assignment_9_pytest_html.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| 10 | Behave | **BDD Framework** — Gherkin scenarios + step definitions for login flows | [Code](./Part_3_Python_BDD_Restful_Automations/features/login.feature) | [Video](<!-- ADD VIDEO LINK -->) |
-| 11 | Behave | **Data-Driven API** — POST JSON payloads, validate 201 + response body | [Code](./Part_3_Python_BDD_Restful_Automations/assignment_2_api_data_driven.py) | [Video](<!-- ADD VIDEO LINK -->) |
-| 12 | Robot | **Basic Syntax** — SeleniumLibrary keywords for login + inventory verification | [Code](./Part_4_Robot_Framework/assignment_1_basic.robot) | [Video](<!-- ADD VIDEO LINK -->) |
-| 13 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [Code](./Part_4_Robot_Framework/assignment_2_variables.robot) | [Video](<!-- ADD VIDEO LINK -->) |
-| 14 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [Code](./Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [Video](<!-- ADD VIDEO LINK -->) |
+| 1 | Selenium | **Locators** — Login to saucedemo.com using ID, Name, and XPath strategies | [Code](./Part_1_Automation_With_Selenium/assignment_1_locators.py) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 2 | Selenium | **Synchronization** — Explicit waits with WebDriverWait (no `time.sleep()`) | [Code](./Part_1_Automation_With_Selenium/assignment_2_sync.py) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 3 | Selenium | **Dropdowns & Checkboxes** — Verify state with `.is_selected()`; autocomplete dropdown loop | [Code](./Part_1_Automation_With_Selenium/assignment_3_dropdowns_checkboxes.py) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 4 | Selenium | **JavaScript Alerts** — Handle Alert, Confirm, and Prompt dialogs | [Code](./Part_1_Automation_With_Selenium/assignment_4_alerts.py) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 5 | Selenium | **Web Tables** — Iterate rows/columns, find by string match, extract adjacent value | [Code](./Part_1_Automation_With_Selenium/assignment_5_webtables.py) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 6 | Selenium | **Windows · Tabs · Frames** — Switch contexts with `switch_to.frame()` and `window_handles` | [Code](./Part_1_Automation_With_Selenium/assignment_6_windows_frames.py) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 7 | PyTest | **Page Object Model** — BasePage → LoginPage → PyTest tests with separated assertions | [Code](./Part_2_Unit_Test_Frameworks/assignment_7_pom/) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 8 | PyTest | **Data-Driven Testing** — CSV + `@pytest.mark.parametrize` over multiple login combos | [Code](./Part_2_Unit_Test_Frameworks/assignment_8_ddt.py) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 9 | PyTest | **HTML Reporting** — Module-scoped fixture + `pytest-html` self-contained report | [Code](./Part_2_Unit_Test_Frameworks/assignment_9_pytest_html.py) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 10 | Behave | **BDD Framework** — Gherkin scenarios + step definitions for login flows | [Code](./Part_3_Python_BDD_Restful_Automations/features/login.feature) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 11 | Behave | **Data-Driven API** — POST JSON payloads, validate 201 + response body | [Code](./Part_3_Python_BDD_Restful_Automations/assignment_2_api_data_driven.py) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 12 | Robot | **Basic Syntax** — SeleniumLibrary keywords for login + inventory verification | [Code](./Part_4_Robot_Framework/assignment_1_basic.robot) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 13 | Robot | **Variables** — `${VARIABLE}` syntax in the `*** Variables ***` section | [Code](./Part_4_Robot_Framework/assignment_2_variables.robot) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
+| 14 | Robot | **Custom Keywords** — User-defined keywords with `[Arguments]` + `[Teardown]` | [Code](./Part_4_Robot_Framework/assignment_3_custom_keywords.robot) | [Video](https://drive.google.com/drive/folders/1tQHIC1zwFxaQcD1vVrcdqYErat0HFQu_) |
 
 ---
 
